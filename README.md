@@ -1,5 +1,7 @@
 # nearwash
 
-## Learning jinja2 template inheritance
+Get local ipaddresses and show characteristics about them.
 
-https://jinja.palletsprojects.com/en/latest/templates/#template-inheritance
+Motivation:
+
+https://www.elastic.co/guide/en/elastic-stack/current/installing-stack-demo-self.html#install-stack-self-elasticsearch-config
