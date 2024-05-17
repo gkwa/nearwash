@@ -13,7 +13,7 @@ def get_ip_addresses():
                 ip_list.append((addr["addr"], True))
         if netifaces.AF_INET6 in addrs:
             for addr in addrs[netifaces.AF_INET6]:
-                ip_list.append((addr["addr"], True))
+                ip_list.append((addr["addr"].split("%")[0], True))
     return ip_list
 
 
